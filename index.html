@@ -84,8 +84,13 @@
  }
  </style>
  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-</head>
-<body>
+<style data-post-index-reader-style="true">
+div[data-post-index-navigation="true"] { display:block !important; visibility:visible !important; padding:12px 20px; text-align:right; }
+div[data-post-index-navigation="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:8px 14px; border:1px solid currentColor; border-radius:6px; color:inherit; text-decoration:none; }
+nav.pager, nav.post-pager, nav[data-site-documents="true"] { display:flex !important; visibility:visible !important; flex-wrap:wrap; gap:12px; padding:16px 0; }
+nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:6px 10px; color:inherit; }
+</style></head>
+<body><div data-post-index-navigation="true" aria-label="글 목록 안내"><a href="posts.html">글 목록</a></div>
  <header>
  <div class="container header-inner">
  <a href="/" class="logo">마포<span>마사지</span></a>
@@ -94,7 +99,7 @@
  <a href="#program">프로그램</a>
  <a href="#reviews">리뷰</a>
  <a href="#contact">문의</a>
- <a href="posts.html">글 목록</a></nav>
+ </nav>
  <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('.nav-overlay').classList.add('active')">
  
  </button>
